@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/perro.png" type="image/x-icon">
+    <title>Sasha Presidente</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;            
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Sasha </h1>
+       <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a class="active" href="preferencias.html">Preferencias</a></li>
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>           
+           
+        </ul>
+       </nav>
+    </header>
+    <h2 style="margin:15px">Preferencias de Sasha</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207,207, 207);">
+                <col>
+                <col>
+                <col>
+                <col>
+                
+            </colgroup>
+            <th></th>
+            <th>Prefiere: </th>
+            <th>No le gusta: </th>
+
+            <tr>
+                <td>Alimento</td>
+                <td>Doggy cachorro</td>
+                <td>Pedigree</td>
+            </tr>
+            <tr>
+                <td>Comidas Preferida</td>
+                <td>Bife de Higado</td>
+                <td>Carnes de cerdo</td>
+            </tr>
+            <tr>
+                <td>Comidas Preferida</td>
+                <td>Calabaza y Zanahoria</td>
+                <td>Papa</td>
+            </tr>
+            <tr>
+                <td>Comidas Preferidas</td>
+                <td>Arroz Con Pollo o Carne Picada</td>
+                <td>Fideos cortos</td>
+            </tr>
+            <tr>
+                <td>Masitas</td>
+                <td>Pepas S/dulde, Animalitos, Tapas de alfajor</td>
+                <td>Masitas con chocolate</td>
+            </tr>
+            <tr>
+                <td>Frutas</td>
+                <td>Manzana Verde</td>
+                <td>Manzana Roja</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
